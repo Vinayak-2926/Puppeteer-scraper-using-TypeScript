@@ -10,7 +10,7 @@ mkdir scraper
 cd scraper
 git clone git@github.com:vinayak990/Puppeteer-scraper-using-TypeScript.git
 npm i puppeteer
-yarn add typescript --dev
+npm i typescript --dev
 ```
 For linting and formatting use ESLint and Prettier. I used Visual Studio Code as IDE along with ESLint and Prettier extension.
 ```
@@ -23,4 +23,4 @@ npm install -D ts-node
 cd src
 ts-node scraper.ts
 ```
-Output will be saved as DATA.json in the src folder
+Output will be saved as DATA.json in the src folder.
